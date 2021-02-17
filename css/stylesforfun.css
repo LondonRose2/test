@@ -67,17 +67,17 @@ body
 
 @keyframes slider {
     0% {
-        transform: translateX(300px);
+        transform: translateX(255px);
         opacity: 1;
     }
     
-    70% {transform: translateX(630px);
+    70% {transform: translateX(600px);
         opacity: 0.5;
 
     }
 
     73% {
-        transform: translateX(630px);
+        transform: translateX(620px);
         opacity: 0;
 
     
