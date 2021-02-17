@@ -1,0 +1,84 @@
+body
+
+{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:whitesmoke;
+    
+
+    }    
+
+.parallax-off {
+    background-image: url(../images/windowsmall.jpg);
+    height: 800px;
+    margin: 0px;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.parallax-on {
+    background-color: black;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+
+
+
+.on {
+    width: 125px;
+    height:auto;
+    margin-left:80%;
+    margin-top: 35%;
+}
+
+.off{
+    width: 85px;
+    height: auto;
+    margin-left:82%;
+    margin-top: 35.6%;
+
+}
+
+
+.slide-center {
+    position:absolute;
+    margin-left: 12%;
+    top:50px;
+    opacity:0;
+    animation: slider 5s infinite;
+    
+    
+}
+
+.slide-center img{
+    width: 100px;
+    z-index: 1;
+    margin-top: 75px;
+}
+
+
+@keyframes slider {
+    0% {
+        transform: translateX(310px);
+        opacity: 1;
+    }
+    
+    70% {transform: translateX(640px);
+        opacity: 0.5;
+
+    }
+
+    73% {
+        transform: translateX(640px);
+        opacity: 0;
+
+    
+    }
+}
