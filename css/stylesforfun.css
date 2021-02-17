@@ -4,6 +4,7 @@ body
     
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:whitesmoke;
+    margin: 0px;
     
 
     }    
@@ -66,17 +67,17 @@ body
 
 @keyframes slider {
     0% {
-        transform: translateX(310px);
+        transform: translateX(300px);
         opacity: 1;
     }
     
-    70% {transform: translateX(640px);
+    70% {transform: translateX(630px);
         opacity: 0.5;
 
     }
 
     73% {
-        transform: translateX(640px);
+        transform: translateX(630px);
         opacity: 0;
 
     
