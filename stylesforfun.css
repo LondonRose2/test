@@ -9,7 +9,7 @@ body
     }    
 
 .parallax-off {
-    background-image: url(../images/windowsmall.jpg);
+    background-image: url(./images/windowsmall.jpg);
     height: 800px;
     margin: 0px;
     background-size: 100%;
