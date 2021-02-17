@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">">
+    <link rel="stylesheet" href="./css/stylesforfun.css">
+    <link rel="stylesheet" href="./css/<normalize.css">
+    <link rel="icon" href="./favicon.ico"> 
+    <title>Index</title>
+</head>
+<body>
+    
+    <a id="on">
+        <div class="parallax-off">
+        <div class="slide-center">
+            
+            <img src="./images/aircraft-3368977_1280.png">
+            
+        </div>
+            <div>
+                <a href="./html/off.html">
+                    <img class="on" src="./images/black-power-button-1428134_1920.png">
+                    
+    
+                </a>
+            
+        </div>
+    </div>
+   
+
+
+    </div>
+    </div>
+
+</body>
+</html>
